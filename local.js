@@ -11,6 +11,7 @@ const addProduct = () =>{
 
 const displayProduct = (product, quantity) =>{
     const ul = document.getElementById('product-container')
+    console.log(ul)
     const li = document.createElement('li')
     li.innerText = `${product}: ${quantity}`
     ul.appendChild(li)
